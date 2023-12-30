@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog's Species Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Smooch&family=Truculenta:opsz,wght@12..72,600&family=Neonderthaw&family=Almendra+Display&family=Roboto&display=swap" rel="stylesheet">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet" />
+</head>
+
+<body class=" bg-[#001d3d] font-Truculenta ">
+  <header class="fixed w-full h-12 bg-white bg-opacity-40 backdrop-blur-2xl">
+    <nav class="flex text-black hover:cursor-pointer px-6 py-2 justify-between">
+      <h1 class="text-2xl font-Salsa hover:opacity-80 " onclick="location.reload()">Dog's</h1>
+      <div class="text-sm sm:text-base flex gap-5 hover:cursor-pointer px-3 items-center">
+        <h1 onclick="location.reload()" class="hover:opacity-70">Home</h1>
+        <a href="AboutUs.html">
+          <h1 class="hover:opacity-80">About Us</h1>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div
+      class=" w-full h-52 sm:h-72 md:h-96 bg-gradient-to-tl from-[#88d498] to-[#ffc300] rounded-b-3xl sm:rounded-b-3xl md:rounded-b-full">
+      <div class=" flex justify-center sm:gap-8 md:gap-12">
+        <div class=" h-64 w-64 sm:h-80 sm:w-80 md:w-[28rem] md:h-[28rem] mt-10 md:mt-16">
+          <img class="" src="/TestData/hero-5-dog.avif" alt="A DogImage">
+        </div>
+        <div class="">
+          <h1 class=" font-Salsa font-bold text-3xl sm:text-4xl md:text-6xl text-white mt-14 sm:mt-24 md:mt-22">
+            Dog <br>
+            breeds <br> gallery</h1>
+          <span class="mt-2 hidden md:block text-gray-800 font-extralight font-Truculenta">From tiny French Bulldogs to giant Great
+            Danes, <br> our dog breed
+            gallery has everything you need <br> to know about your favourite dog breed!</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cards" class=" flex flex-col flex-wrap sm:flex-row md:flex-row gap-4 sm:gap-8 md:gap-11 justify-center mt-4 sm:mt-8 md:mt-11 md:ml-10 md:mr-10">
+  </section>
+
+  <section>
+    <div class="flex justify-center items-center">
+      <button class=" h-8 w-8 bg-white rounded-full flex justify-center items-center mt-8 animate-bounce hover:animate-none"  id="loadMore">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-black">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+      </svg>
+      </button>
+    </div>
+  </section>
+
+  <section class=" hidden md:block">
+    <div class="flex justify-center ">
+      <img class="w-[72rem] h-64 mt-20 rounded-xl object-cover hover:opacity-80" src="/TestData/desktop.avif" alt="">
+      <div class="absolute text-center mt-52  ">
+        <h1 class=" text-white text-3xl font-body font-semibold">The Canine Chronicles.</h1>
+        <p class="text-white font-Truculenta">Loyalty. Love. Joy.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="w-full h-40 sm:h-48 md:h-56 bg-gradient-to-tr from-[#1e6091] to-[#99d98c] mt-14 sm:mt-16 md:mt-24 rounded-t-3xl md:rounded-t-full flex flex-col ">
+      <div class="flex flex-col items-center text-white">
+        <h1 class="mt-4 font-Salsa text-white text-lg sm:text-2xl md:text-4xl">DOG's</h1>
+        <p class=" text-xs sm:text-base  text-gray-200">Love For Dogs</p>
+      </div>
+      <div class="flex justify-center gap-2 sm:gap-7 mt-4 sm:mt-8 md:mt-11 text-xs sm:text-base md:text-lg text-white">
+        <div>
+          <h1>About Us</h1>
+        </div>
+        <div>
+          <h1>Privacy Policy</h1>
+        </div>
+        <div>
+          <h1>Community & Support </h1>
+        </div>
+        <div>
+          <h1>Legals</h1>
+        </div>
+        <div>
+          <h1>Terms & Conditions</h1>
+        </div>
+      </div>
+      <p class="text-xs text-white text-center mt-6 sm:mt-10 md:mt-12">© 2023. All rights reserved.</p>
+    </div>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
