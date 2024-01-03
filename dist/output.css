@@ -556,10 +556,6 @@ video {
   z-index: -50;
 }
 
-.z-50 {
-  z-index: 50;
-}
-
 .ml-7 {
   margin-left: 1.75rem;
 }
