@@ -18,7 +18,6 @@ function fetchMoreData() {
       return res.json();
     })
     .then((data) => {
-      console.log(data)
       data.forEach(card => {
         const markup = `
       <div class="">

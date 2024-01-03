@@ -14,7 +14,7 @@ This repository contains the code and resources for a comprehensive dog breed ga
 
 ## Accessing the Website
 
-To access the dog breed gallery website, simply [click here](#)
+To access the dog breed gallery website, simply [click here](https://errahulrp.github.io/Dog-s/src/)
 
 ## Contributing
 
