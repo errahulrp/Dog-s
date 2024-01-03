@@ -1,8 +1,7 @@
-import { apiKey } from '../config.js';
-
 const headers = new Headers({
   "Content-Type": "application/json",
-  "x-api-key": apiKey,
+  //https://thedogapi.com/ free available API With Keys
+  "x-api-key": "8cf8628b-af6c-4b6b-a3d6-ed51fbf494e4",   
 });
 
 var requestOptions = {

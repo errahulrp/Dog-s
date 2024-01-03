@@ -552,6 +552,14 @@ video {
   position: absolute;
 }
 
+.-z-50 {
+  z-index: -50;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
 .ml-7 {
   margin-left: 1.75rem;
 }
@@ -598,14 +606,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-9 {
-  margin-top: 2.25rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
 }
 
 .flex {
@@ -682,14 +682,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-48 {
-  width: 12rem;
 }
 
 @keyframes bounce {
@@ -899,14 +891,14 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
