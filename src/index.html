@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dog's Species Home</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Smooch&family=Truculenta:opsz,wght@12..72,600&family=Neonderthaw&family=Almendra+Display&family=Roboto&family=Salsa&display=swap" rel="stylesheet">  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Carattere&family=Smooch&family=Truculenta:opsz,wght@12..72,600&family=Neonderthaw&family=Almendra+Display&family=Roboto&family=Salsa&display=swap"
+    rel="stylesheet">
   <link href="../dist/output.css" rel="stylesheet" />
 </head>
 
 <body class=" bg-[#001d3d] font-Truculenta ">
-  <header class="fixed  w-full h-12 bg-white bg-opacity-40 backdrop-blur-2xl">
-    <nav class="flex text-black hover:cursor-pointer px-6 py-2 justify-between">
-      <h1 class="text-2xl font-Salsa hover:opacity-80 " onclick="location.reload()">Dog's</h1>
+  <nav class="fixed z-50 w-full h-12 bg-white bg-opacity-40 backdrop-blur-2xl">
+    <div class="flex  text-black px-6 py-2 justify-between">
+      <h1 class="text-2xl font-Salsa hover:opacity-80  hover:cursor-pointer " onclick="location.reload()">Dog's</h1>
       <div class="text-sm sm:text-base flex gap-5 hover:cursor-pointer px-3 items-center">
-        <h1 onclick="location.reload()" class="hover:opacity-70">Home</h1>
+        <h1 onclick="location.reload()" class="hover:opacity-70  hover:cursor-pointer">Home</h1>
         <a href="AboutUs.html">
-          <h1 class="hover:opacity-80">About Us</h1>
+          <h1 class="hover:opacity-80  hover:cursor-pointer">About Us</h1>
         </a>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
   <section>
     <div
@@ -34,7 +37,8 @@
           <h1 class=" font-Salsa font-bold text-3xl sm:text-4xl md:text-6xl text-white mt-14 sm:mt-24 md:mt-22">
             Dog <br>
             breeds <br> gallery</h1>
-          <span class="mt-2 hidden md:block text-gray-800 font-extralight font-Truculenta">From tiny French Bulldogs to giant Great
+          <span class="mt-2 hidden md:block text-gray-800 font-extralight font-Truculenta">From tiny French Bulldogs
+            to giant Great
             Danes, <br> our dog breed
             gallery has everything you need <br> to know about your favorite dog breed!</span>
         </div>
@@ -42,22 +46,27 @@
     </div>
   </section>
 
-  <section id="cards" class=" flex flex-col flex-wrap sm:flex-row md:flex-row gap-4 sm:gap-8 md:gap-11 justify-center mt-4 sm:mt-8 md:mt-11 md:ml-10 md:mr-10">
+  <section id="cards"
+    class=" flex flex-col flex-wrap sm:flex-row md:flex-row gap-4 sm:gap-8 md:gap-11 justify-center mt-4 sm:mt-8 md:mt-11 md:ml-10 md:mr-10">
   </section>
 
   <section>
     <div class="flex justify-center items-center">
-      <button class="-z-50 h-8 w-8 bg-white rounded-full flex justify-center items-center mt-8 animate-bounce hover:animate-none" id="loadMore">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-black">
+      <button
+        class=" h-8 w-8 bg-white rounded-full flex justify-center items-center mt-8 animate-bounce hover:animate-none hover:cursor-pointer"
+        id="loadMore">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6 text-black  ">
           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
         </svg>
       </button>
     </div>
   </section>
-  
+
   <section class=" hidden md:block">
     <div class="flex justify-center ">
-      <img class="w-[72rem] h-64 mt-20 rounded-xl object-cover hover:opacity-80" src="../TestData/desktop.png" alt=" background DogImage">
+      <img class="w-[72rem] h-64 mt-20 rounded-xl object-cover hover:opacity-80" src="../TestData/desktop.png"
+        alt=" background DogImage">
       <div class="absolute text-center mt-52  ">
         <h1 class=" text-white text-3xl font-body font-semibold">The Canine Chronicles.</h1>
         <p class="text-white font-Truculenta">Loyalty. Love. Joy.</p>
@@ -65,7 +74,8 @@
     </div>
   </section>
   <footer>
-    <div class="w-full h-40 sm:h-48 md:h-56 bg-gradient-to-tr from-[#1e6091] to-[#99d98c] mt-14 sm:mt-16 md:mt-24 rounded-t-3xl md:rounded-t-full flex flex-col ">
+    <div
+      class="w-full h-40 sm:h-48 md:h-56 bg-gradient-to-tr from-[#1e6091] to-[#99d98c] mt-14 sm:mt-16 md:mt-24 rounded-t-3xl md:rounded-t-full flex flex-col ">
       <div class="flex flex-col items-center text-white">
         <h1 class="mt-4 font-Salsa text-white text-lg sm:text-2xl md:text-4xl">DOG's</h1>
         <p class=" text-xs sm:text-base  text-gray-200">Love For Dogs</p>
